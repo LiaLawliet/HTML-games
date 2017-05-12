@@ -1,0 +1,267 @@
+/*/////////////////////////////*/
+/** {border: 1px solid black;}*/
+/*/////////////////////////////*/
+
+/********************** PAGE DANCE *************************/
+
+/********************** HEADER PAGE*************************/
+/********************** BACKGROUND MIDDLE *************************/
+div.bg_dance {
+  position: relative;
+}
+
+/*Fond image*/
+div.bg_dance > img {
+  position: fixed; 
+  right: -20px; 
+  bottom: -35px;
+  min-width: 108%; 
+  min-height: 100%;
+  width: 75%; 
+  height: auto; 
+  z-index: -50;
+}
+
+/*Fond video*/
+div.bg_dance > video {
+  position: fixed; 
+  right: -3px; 
+  bottom: 20px;
+  min-width: 102%; 
+  min-height: 102%;
+  width: auto; height: auto; 
+  z-index: -100;
+  
+  background-image: url(../img/home/image_bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* ***** MIDDLE ***** */
+
+/*indic pas*/
+section.dancing_go div.indic_pas {
+  position: relative;
+}
+section.dancing_go div.indic_pas img#indic_pas_top, img#indic_pas_right, img#indic_pas_bottom, img#indic_pas_left  {
+  position: absolute;
+  width: 95px;
+}
+
+/*top*/
+section.dancing_go div.indic_pas img#indic_pas_top {
+  top: 330px;
+  right: 130px;
+  opacity: 0;
+  z-index: 4;
+}
+/*right*/
+section.dancing_go div.indic_pas img#indic_pas_right {
+  top: 485px;
+  right: -35px;
+  opacity: 0;
+  z-index: 5;
+}
+/*bottom*/
+section.dancing_go div.indic_pas img#indic_pas_bottom {
+  top: 650px;
+  right: 130px;
+  opacity: 0;
+  z-index: 6;
+}
+/*left*/
+section.dancing_go div.indic_pas img#indic_pas_left {
+  top: 485px;
+  right: 300px;
+  opacity: 0;
+  z-index: 7;
+}
+
+
+/*level dancing*/
+section.dancing_go div.level_dancing p#level_text {
+  z-index: -30;
+  color: #690c63;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 700px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+/*effect hover combo perso*/
+section.dancing_go div.parent_effect_combo {
+  position: relative;
+}
+section.dancing_go div.parent_effect_combo img#effect_combo {
+  z-index: 2;
+  position: absolute;
+  width: 400px;
+  top: -300px;
+  left: 2px;
+}
+
+
+/*perso gif*/
+section.dancing_go div.parent_perso_gif {
+  position: relative;
+}
+section.dancing_go div.parent_perso_gif img#perso_gif {
+  z-index: -40;
+  position: absolute;
+  top: -490px;
+  left: -500px;
+  width: 1050px;
+}
+
+
+
+
+/* ***** LEFT ***** */
+section.dancing_go .left_dancing_dancing_go {
+  height: 250px;
+  padding: 0 20px 0 155px;
+  position: relative;
+  margin-top: 80px;
+}
+
+/*point*/
+section.dancing_go .left_dancing_dancing_go div.dancing_score {
+  border: 4px solid #f78b10;
+  background-color: rgba(255, 255, 255, 0.90);
+  border-radius: 50px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+section.dancing_go .left_dancing_dancing_go div.dancing_score p#point, span#point_go  {
+  color: #f78b10;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
+
+
+/*smile*/
+section.dancing_go .left_dancing_dancing_go img#smile_effect_left {
+  position: absolute;
+  width: 300px;
+  top: 45px;
+  right: -20px;
+}
+
+section.dancing_go .left_dancing_dancing_go div.dancing_smile {
+  border: 4px solid #f78b10;
+  background-color: rgba(255, 255, 255, 0.90);
+  border-radius: 50px;
+  margin-top: 12px;
+  padding: 3px;
+}
+section.dancing_go .left_dancing_dancing_go div.dancing_smile img {
+  color: #f78b10;
+  width: 65px;
+  margin: 10px 0px 4px 0px;
+}
+section.dancing_go .left_dancing_dancing_go div.dancing_smile p#smile_text {
+  color: #f78b10;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+/* ***** RIGHT ***** */
+section.dancing_go .right_dancing_dancing_go {
+  height: 250px;
+  padding: 0 75px 0 60px;
+  margin-top: 80px;
+}
+
+/*point*/
+section.dancing_go .right_dancing_dancing_go div.dancing_combo {
+  border: 4px solid #f78b10;
+  background-color: rgba(255, 255, 255, 0.90);
+  border-radius: 50px;
+  margin-top: 15px;
+  padding: 5px;
+}
+/*combo*/
+section.dancing_go .right_dancing_dancing_go {
+  position: relative;
+}
+section.dancing_go .right_dancing_dancing_go img#effect_combo_right {
+  position: absolute;
+  width: 350px;
+  top: 5px;
+  left: 15px;
+}
+section.dancing_go .right_dancing_dancing_go div.dancing_combo p#xcombo, span#xcombo_nb  {
+  color: #f78b10;
+  font-size: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 16px 0px 0px 0px;
+}
+section.dancing_go .right_dancing_dancing_go div.dancing_combo p {
+  color: #f78b10;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
+
+
+/*social network*/
+div.social_network{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+i.social_net{
+  margin: 0px 22px 0px 0px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all .7s ease;
+  font-size: 37px;
+}i.social_net:hover{
+  transform: rotate(360deg)
+}
+
+/*facebook*/
+div.social_network > a:nth-child(1) > i.social_net{
+  padding: 17px 25px 13px 24px;
+  color: #EDF24A;
+  background-color: #F78B10;
+}
+div.social_network > a:nth-child(1) > i.social_net:hover{
+  color: #F78B10;
+  background-color: #690C63;
+}
+/*twitter*/
+div.social_network > a:nth-child(2) > i.social_net{
+  padding: 16px 16px 15px 18px;
+  color: #EDF24A;
+  background-color: #F78B10;
+}
+div.social_network > a:nth-child(2) > i.social_net:hover{
+  color: #F78B10;
+  background-color: #690C63;
+}
+/*google +*/
+div.social_network > a:nth-child(3) > i.social_net{
+  padding: 16px 9px 14px 11px;
+  color: #EDF24A;
+  background-color: #F78B10;
+}
+div.social_network > a:nth-child(3) > i.social_net:hover{
+  color: #F78B10;
+  background-color: #690C63;
+}

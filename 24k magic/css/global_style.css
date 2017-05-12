@@ -1,0 +1,25 @@
+/*/////////////////////////////*/
+/** {border: 1px solid black;}*/
+/*/////////////////////////////*/
+
+/********************** GLOBAL STYLE PAGE PROJECT *************************/
+/***********************************************************/
+/*Import typo*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+/*Typo Style*/
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+a, a:hover, a:focus{
+  text-decoration: none;
+}
+* {
+	font-family: 'Lato', sans-serif;
+	color: #212121;
+}
+
+/********************** BOUTON *************************/

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Bruno Mars - 24K Magic - HARD DANCE</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <!-- meta referencement -->
+    <meta name="content-language" content="fr"/>
+    <meta name="Description" content=""/>
+    <meta name="keywords" content="velo, velos, vélos, vélo"/>
+    <meta name="subject" content="sujet principal de la page"/>
+    <meta name="copyright" content="nil Copyright"/>
+    <meta name="Author" content="nom autor"/>
+    <meta name="identifier-url" content="supernovae-project.com"/>
+
+    <!-- BOOTSTRAP CSS-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <!-- GLOBAL STYLE -->
+    <link type="text/css" rel="stylesheet" href="css/global_style.css"/>
+    <!-- MY CSS -->
+    <link type="text/css" rel="stylesheet" href="css/dance_1.css"/>
+    <!-- FONT AWESOME -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- POP UP DEBUT -->
+    <link href="css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- POP UP DEBUT -->
+    <div class="popup_debut">
+        <div class="cover">
+            <div class="container">
+                <div class="popup center text-center">
+
+                    <p class="popup_p">Utilises les flèches directionnelles du clavier au bon moment pour réaliser la meilleur corégraphie obtenir le plus de points possible</p>
+
+                    <br/>
+
+                    <img src="img/dance_1/arrow_izi.png" alt="" class="arrow_izi">
+                    
+                    <br/>
+
+                    <input type="button" value="C'est partit !" id="btn_chrono_crashtest" class="play hvr-buzz-out">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- POP UP FIN -->
+    <div class="popup_fin">
+        <div class="cover">
+            <div class="container">
+                <div class="popup center">
+
+                    <p class="popup_p">Bravo ton score est de <span id="score_end"></span></p>
+
+                    <br/>
+
+                    <div class="social_network">
+                        <a href=""><i class="fa fa-facebook social_net " aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter social_net " aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus social_net " aria-hidden="true"></i></a>
+                    </div><!-- /end social netw -->  
+
+                    <br/>
+
+                    <a href="dance_1.html"><p class="hvr-buzz-out btn_samere">rejouer</p></a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ***** DANCE PERSO ***** -->
+    <section class="dancing_go">
+            <div class="container">
+                <div class="row">
+                
+                <!-- LEFT -->
+                <div class="col-md-4 left_dancing_dancing_go">
+                    <!-- point -->
+                    <div class="dancing_score text-center">
+                        <p id="point"><span id="point_go">0</span> pt</p>
+                    </div>
+
+                    <!-- smile hover effect smoke -->
+                    <img id="smile_effect_left">
+
+                    <!-- smile -->
+                    <div class="dancing_smile text-center">
+                        <img id="smile" src="img/dance_1/smiley/smiley_moyen.svg" alt="smiley">
+                        <p id="smile_text">MOYEN !</p>
+                    </div>
+                </div><!-- /end col-md-4 -->
+                <!-- /end LEFT -->
+
+
+
+                <!-- MIDDLE-->
+                <div class="col-md-4 dancing_perso">
+
+                    <!-- indication des pas -->
+                    <div class="indic_pas"><!-- top -->
+                        <img src="img/dance_1/pas_indic/pasindic_top.svg" id="indic_pas_top">       
+                    </div>
+                    <div class="indic_pas"><!-- right -->
+                        <img src="img/dance_1/pas_indic/pasindic_right.svg" id="indic_pas_right">
+                    </div>
+                    <div class="indic_pas"><!-- bottom -->
+                        <img src="img/dance_1/pas_indic/pasindic_bottom.svg" id="indic_pas_bottom"> 
+                    </div>
+                    <div class="indic_pas"><!-- left -->
+                        <img src="img/dance_1/pas_indic/pasindic_left.svg" id="indic_pas_left">
+                    </div>
+
+                    <!-- level dancing -->
+                    <div class="level_dancing text-center">
+                        <p id="level_text">no level</p> 
+                    </div><!-- /end level dancing -->
+
+                    <!-- effect hover perso combo   -->
+                    <div class="parent_effect_combo">
+                        <img id="effect_combo">
+                    </div><!-- /end hover perso combo -->
+
+                    <!-- perso gif -->
+                    <div class="parent_perso_gif">
+                        <img src="" id="perso_gif">
+                    </div><!-- /end perso gif -->
+                </div><!-- /end col-md-4 -->
+
+                <!-- RIGHT -->
+                <div class="col-md-4 right_dancing_dancing_go">
+                    <!-- combo hover smoke -->
+                    <img id="effect_combo_right">
+                    <!-- combo -->
+                    <div class="dancing_combo text-center">
+                        <p id="xcombo">X<span id="xcombo_nb">0<span></p>
+                        <p>combo</p>
+                    </div>
+                </div><!-- /end col-md-4 -->
+                <!-- /end RIGHT -->
+
+                <!-- BACKGROUND MIDDLE -->
+                <div class="bg_dance">
+                    <img src="img/dance_1/plateforme/fond_plus.gif">
+                    
+                    <audio src="music.mp3" id="music"></audio>
+                    <!-- <video id="bg_videox" muted src="img/dance_1/plateforme/Free After Effects CS6+ Audio Visualization Templates.mp4"></video> -->
+                </div>           
+
+
+                
+
+
+                </div><!-- /end row -->
+            </div><!-- /end container -->
+    </section><!-- /end section -->
+
+
+
+    <!--***************************************************************************** -->
+    <!-- ***** ********* PLUGIN ********* ***** -->
+    <!--***************************************************************************** -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- PAGE DANCE JS -->
+    <script src="js/page_dance.js"></script>
+
+    <!-- POP UP DEBUT -->
+    <script src="js/popup_debut.js"></script>
+    <!-- ***********************************************************************************
+    *********************************THIBAUT MELEN******************************************* -->
+
+</body>
+
+</html>
